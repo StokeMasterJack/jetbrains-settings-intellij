@@ -1,0 +1,12 @@
+<templateSet group="_DaveKotlinTeaching">
+  <template name="user" value="data class User(&#10;    val userName: String,&#10;    val firstName: String,&#10;    val lastName: String&#10;)" description="create a user class" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="KOTLIN_TOPLEVEL" value="true" />
+    </context>
+  </template>
+  <template name="users" value="val users: List&lt;User&gt; = listOf(&#10;    User(&quot;dford&quot;, &quot;David&quot;, &quot;Ford&quot;),&#10;    User(&quot;kford&quot;, &quot;Kellie&quot;, &quot;Ford&quot;),&#10;    User(&quot;jblow&quot;, &quot;Joe&quot;, &quot;Blow&quot;)&#10;)&#10;" description="create a list of user" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="KOTLIN_TOPLEVEL" value="true" />
+    </context>
+  </template>
+</templateSet>

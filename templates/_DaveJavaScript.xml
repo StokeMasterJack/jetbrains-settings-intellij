@@ -1,0 +1,55 @@
+<templateSet group="_DaveJavaScript">
+  <template name="c" value="console.log($END$);" description="console.log" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="cv" value="console.log(&quot;$EXPR_COPY$: &quot;,$EXPR$);" description="Prints a value to console.log" toReformat="true" toShortenFQNames="true">
+    <variable name="EXPR" expression="variableOfType(&quot;&quot;)" defaultValue="&quot;expr&quot;" alwaysStopAt="true" />
+    <variable name="EXPR_COPY" expression="EXPR" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="f1" value="function f1(){&#10;    $END$ &#10;}" description="creates a JS function called f1" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="ir" value="import React from 'react';" description="import react" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="p" value="console.log($END$);" description="console.log" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="pv" value="console.log(&quot;$EXPR_COPY$: &quot;,$EXPR$);" description="Prints a value to console.log" toReformat="true" toShortenFQNames="true">
+    <variable name="EXPR" expression="jsSuggestVariableName()" defaultValue="&quot;expr&quot;" alwaysStopAt="true" />
+    <variable name="EXPR_COPY" expression="EXPR" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="TS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="f" value="for(let i=0;i&lt;$END$;i++){&#10;&#10;} " description="for" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="val" value="const $END$;" description="const" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+</templateSet>

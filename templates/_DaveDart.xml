@@ -1,0 +1,44 @@
+<templateSet group="_DaveDart">
+  <template name="p" value="print($END$);" description="print to standard out" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="DART_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="f" value="for(int i=0;i&lt;$END$;i++){&#10;&#10;} " description="Dart for loop" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="DART_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="pm" value="print('$CLASS_NAME_METHOD_NAME$');$END$" description="prints the current class and method name to standard out" toReformat="true" toShortenFQNames="true">
+    <variable name="CLASS_NAME_METHOD_NAME" expression="" defaultValue="dartClassNameMethodName" alwaysStopAt="false" />
+    <context>
+      <option name="DART_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="pv" value="print('$EXPR$[${$EXPR$}]');" description="print value to standard out" toReformat="true" toShortenFQNames="true">
+    <variable name="EXPR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="DART_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="main" value="void main() {   $END$ }" description="main method" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="DART" value="true" />
+    </context>
+  </template>
+  <template name="s" value="String " description="String" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="DART" value="true" />
+    </context>
+  </template>
+  <template name="t" value="void test1() {&#10;    $END$    &#10;}" description="new method" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="DART" value="true" />
+    </context>
+  </template>
+  <template name="val" value="final $END$;" description="final" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="DART_STATEMENT" value="true" />
+    </context>
+  </template>
+</templateSet>

@@ -1,0 +1,7 @@
+<application>
+  <component name="ActionMacroManager">
+    <macro name="kk">
+      <typing text-keycode="70:0">x</typing>
+    </macro>
+  </component>
+</application>

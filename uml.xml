@@ -1,0 +1,15 @@
+<application>
+  <component name="UmlConfiguration">
+    <option name="relayoutOnNewElements" value="false" />
+    <option name="categories">
+      <map>
+        <entry id="DATABASE" categories="Key columns;Columns;Virtual foreign keys" />
+        <entry id="DIFF" categories="Details" />
+        <entry id="EntityBeans" categories="Properties;Embeddables;Superclasses" />
+        <entry id="JAVA" categories="Show One To One;Show One To Many;Show Usages;Others" />
+        <entry id="Persistence" categories="Properties;Embeddables;Superclasses" />
+        <entry id="QUERY_PLAN" categories="Attributes" />
+      </map>
+    </option>
+  </component>
+</application>

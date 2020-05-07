@@ -1,0 +1,73 @@
+<templateSet group="_DaveKotlin">
+  <template name="p" value="println($END$)" description="Prints a string to System.out" toReformat="true" toShortenFQNames="false">
+    <context>
+      <option name="KOTLIN_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="pv" value="println(&quot;$EXPR_COPY$ = $DOLLAR${$EXPR$}&quot;)" description="Prints a value to System.out" toReformat="true" toShortenFQNames="true">
+    <variable name="DOLLAR" expression="" defaultValue="&quot;$&quot;" alwaysStopAt="false" />
+    <variable name="EXPR" expression="kotlinVariable()" defaultValue="&quot;expr&quot;" alwaysStopAt="true" />
+    <variable name="EXPR_COPY" expression="EXPR" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="KOTLIN_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="pp" value="println($FORMAT$)" description="Prints function parameter names and values to System.out" toReformat="true" toShortenFQNames="true">
+    <variable name="FORMAT" expression="groovyScript(&quot;'\&quot;' + _1.collect { it + ' = [${' + it + '}]'}.join(', ') + '\&quot;'&quot;, functionParameters())" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="KOTLIN_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="t" value="@org.junit.Test&#10;fun test(){&#10;    $END$&#10;}" description="test method - junit" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="KOTLIN_CLASS" value="true" />
+    </context>
+  </template>
+  <template name="m" value="fun main(args: Array&lt;String&gt;) {&#10;  $END$&#10;}" description="main() function" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="KOTLIN_TOPLEVEL" value="true" />
+    </context>
+  </template>
+  <template name="pm" value="println(&quot;$CLASS_NAME$.$METHOD_NAME$&quot;)" description="print method name" toReformat="false" toShortenFQNames="true">
+    <variable name="CLASS_NAME" expression="kotlinClassName()" defaultValue="" alwaysStopAt="true" />
+    <variable name="METHOD_NAME" expression="kotlinFunctionName()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+  <template name="c" value="console.log($END$)" description="console.log" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="KOTLIN_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="sl" value="private val log = Logger.getLogger(object{}::class.simpleName)" description="static lof decl" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="KOTLIN_TOPLEVEL" value="true" />
+    </context>
+  </template>
+  <template name="s" value="String" description="String" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+  <template name="main" value="fun main(args: Array&lt;String&gt;) {&#10;  $END$&#10;}" description="main() function" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="KOTLIN_TOPLEVEL" value="true" />
+    </context>
+  </template>
+  <template name="kk" value="x" description="dead key" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="t1" value="val t1 = System.currentTimeMillis()" description="t1" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+  <template name="t2" value="val t2 = System.currentTimeMillis()&#10;println(&quot;$END$ Delta: &quot; + (t2-t1))" description="t1" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+</templateSet>

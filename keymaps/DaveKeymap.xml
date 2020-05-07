@@ -1,0 +1,78 @@
+<keymap version="1" name="DaveKeymap" parent="Mac OS X">
+  <action id="$Cut">
+    <keyboard-shortcut first-keystroke="meta x" />
+    <keyboard-shortcut first-keystroke="shift delete" />
+    <keyboard-shortcut first-keystroke="shift meta d" />
+    <keyboard-shortcut first-keystroke="shift meta c" />
+  </action>
+  <action id="ActivateProjectToolWindow" />
+  <action id="ChangesView.Diff" />
+  <action id="CheckinProject" />
+  <action id="CollapseAll">
+    <keyboard-shortcut first-keystroke="meta subtract" />
+  </action>
+  <action id="CollapseRegion">
+    <keyboard-shortcut first-keystroke="meta subtract" />
+  </action>
+  <action id="CompareTwoFiles" />
+  <action id="Console.TableResult.CloneRow" />
+  <action id="Console.TableResult.CompareCells" />
+  <action id="CopyPaths" />
+  <action id="DatabaseView.CopyAction" />
+  <action id="DatabaseView.CopyDdlAction">
+    <keyboard-shortcut first-keystroke="shift meta alt g" />
+  </action>
+  <action id="Diff.ApplyLeftSide" />
+  <action id="Diff.ApplyRightSide" />
+  <action id="Diff.NextChange" />
+  <action id="Diff.PrevChange" />
+  <action id="Diff.ShowDiff" />
+  <action id="Diff.ShowSettingsPopup" />
+  <action id="Editor Cut">
+    <keyboard-shortcut first-keystroke="shift meta d" />
+    <keyboard-shortcut first-keystroke="shift meta c" />
+  </action>
+  <action id="EditorCut">
+    <keyboard-shortcut first-keystroke="meta x" />
+    <keyboard-shortcut first-keystroke="shift delete" />
+  </action>
+  <action id="EditorDecreaseFontSize">
+    <keyboard-shortcut first-keystroke="meta minus" />
+  </action>
+  <action id="EditorIncreaseFontSize">
+    <keyboard-shortcut first-keystroke="meta equals" />
+  </action>
+  <action id="EditorLookupDown" />
+  <action id="EditorLookupUp" />
+  <action id="EditorPasteFromX11" />
+  <action id="FileChooser.GotoDesktop" />
+  <action id="FileChooser.NewFolder" />
+  <action id="FileChooser.TogglePathShowing" />
+  <action id="GotoChangedFile" />
+  <action id="JupyterSelectCellAboveAction" />
+  <action id="MethodUp" />
+  <action id="NextEditorTab" />
+  <action id="NextTab" />
+  <action id="ParameterInfo" />
+  <action id="PreviousEditorTab" />
+  <action id="PreviousTab" />
+  <action id="RunDashboard.CopyConfiguration" />
+  <action id="Scala.ShowImplicits">
+    <keyboard-shortcut first-keystroke="shift ctrl alt equals" />
+    <keyboard-shortcut first-keystroke="shift ctrl alt add" />
+  </action>
+  <action id="SendEOF" />
+  <action id="TogglePresentationMode">
+    <keyboard-shortcut first-keystroke="meta p" second-keystroke="p" />
+  </action>
+  <action id="Uml.ShowDiff" />
+  <action id="Vcs.Push" />
+  <action id="XDebugger.CopyWatch" />
+  <action id="android.deploy.ApplyChanges">
+    <keyboard-shortcut first-keystroke="ctrl meta r" />
+  </action>
+  <action id="android.deploy.CodeSwap">
+    <keyboard-shortcut first-keystroke="shift ctrl meta r" />
+  </action>
+  <action id="openAssertEqualsDiff" />
+</keymap>

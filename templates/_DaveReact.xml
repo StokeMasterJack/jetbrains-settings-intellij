@@ -1,0 +1,16 @@
+<templateSet group="_DaveReact">
+  <template name="r" value="import * as React from 'react';" description="import React" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="fa" value="const $NAME$ = () =&gt;{&#10;    $END$&#10;};" description="create arrow function" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="FName" alwaysStopAt="true" />
+    <context>
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="af" value="const $NAME$ = () =&gt;{&#10;    $END$&#10;};" description="Create arrow function" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+  </template>
+</templateSet>
