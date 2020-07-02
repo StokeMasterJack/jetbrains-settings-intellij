@@ -17,6 +17,7 @@
   <action id="CompareTwoFiles" />
   <action id="Console.TableResult.CloneRow" />
   <action id="Console.TableResult.CompareCells" />
+  <action id="Console.TableResult.SetNull" />
   <action id="CopyPaths" />
   <action id="DatabaseView.CopyAction" />
   <action id="DatabaseView.CopyDdlAction">
@@ -49,7 +50,13 @@
   <action id="FileChooser.GotoDesktop" />
   <action id="FileChooser.NewFolder" />
   <action id="FileChooser.TogglePathShowing" />
+  <action id="Generate">
+    <keyboard-shortcut first-keystroke="ctrl n" />
+    <keyboard-shortcut first-keystroke="ctrl enter" />
+    <keyboard-shortcut first-keystroke="meta alt n" />
+  </action>
   <action id="GotoChangedFile" />
+  <action id="Inline" />
   <action id="JupyterSelectCellAboveAction" />
   <action id="MethodUp" />
   <action id="NextEditorTab" />
