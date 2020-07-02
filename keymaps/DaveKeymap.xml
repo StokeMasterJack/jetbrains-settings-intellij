@@ -45,6 +45,7 @@
   <action id="EditorLookupDown" />
   <action id="EditorLookupUp" />
   <action id="EditorPasteFromX11" />
+  <action id="EditorStartNewLineBefore" />
   <action id="FileChooser.GotoDesktop" />
   <action id="FileChooser.NewFolder" />
   <action id="FileChooser.TogglePathShowing" />
@@ -55,12 +56,16 @@
   <action id="NextTab" />
   <action id="PreviousEditorTab" />
   <action id="PreviousTab" />
+  <action id="QuickActionPopup" />
   <action id="RunDashboard.CopyConfiguration" />
   <action id="Scala.ShowImplicits">
     <keyboard-shortcut first-keystroke="shift ctrl alt equals" />
     <keyboard-shortcut first-keystroke="shift ctrl alt add" />
   </action>
   <action id="SendEOF" />
+  <action id="ShowIntentionActions">
+    <keyboard-shortcut first-keystroke="meta alt enter" />
+  </action>
   <action id="Uml.ShowDiff" />
   <action id="Vcs.Push" />
   <action id="XDebugger.CopyWatch" />
