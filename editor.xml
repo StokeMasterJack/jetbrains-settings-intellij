@@ -11,4 +11,20 @@
     <option name="SOFT_WRAP_FILE_MASKS" value="*.md; *.txt; *.rst; *.adoc" />
     <option name="SHOW_QUICK_DOC_ON_MOUSE_OVER_ELEMENT" value="false" />
   </component>
+  <component name="InlayHintsSettings">
+    <option name="disabledHintProviderIds">
+      <set>
+        <option value="TypeScript.ts.chain.hints" />
+        <option value="TypeScript.ts.enum.hints" />
+      </set>
+    </option>
+    <option name="lastViewedProviderKeyId" value="parameter.hints.old" />
+    <settingsMapElement>
+      <TypeScript.ts.type.hints>
+        <Settings>
+          <option name="showForInferredParameters" value="false" />
+        </Settings>
+      </TypeScript.ts.type.hints>
+    </settingsMapElement>
+  </component>
 </application>
