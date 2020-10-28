@@ -3,5 +3,8 @@
     <macro name="kk">
       <typing text-keycode="70:0">x</typing>
     </macro>
+    <macro name="pan">
+      <action id="RunClass" />
+    </macro>
   </component>
 </application>

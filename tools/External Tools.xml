@@ -1,0 +1,9 @@
+<toolSet name="External Tools">
+  <tool name="pan" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="pandoc" />
+      <option name="PARAMETERS" value=" -f markdown -t pdf -o $ProjectFileDir$/gen/$FileNameWithoutExtension$.pdf $FilePath$" />
+      <option name="WORKING_DIRECTORY" value="$FileDir$" />
+    </exec>
+  </tool>
+</toolSet>
