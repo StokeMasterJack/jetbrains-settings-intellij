@@ -2,7 +2,7 @@
   <component name="PathMacrosImpl">
     <macro name="MAVEN_REPOSITORY" value="/Users/dford/.m2/repository" />
     <macro name="F" value="/Users/dford/p-dart/flutter" />
-    <macro name="KOTLIN_BUNDLED" value="/Users/dford/Library/Application Support/JetBrains/IntelliJIdea2020.2/plugins/Kotlin/kotlinc" />
+    <macro name="KOTLIN_BUNDLED" value="/Applications/IntelliJ.app/Contents/plugins/Kotlin/kotlinc" />
     <macro name="repos" value="/Volumes/r/dev" />
   </component>
 </application>
