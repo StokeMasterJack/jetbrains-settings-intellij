@@ -9,10 +9,10 @@
       <SuppressingContext>
         <option name="suppressed">
           <set>
+            <option value="But" />
+            <option value="and also" />
             <option value="considered worst practice" />
             <option value="general consensus" />
-            <option value="and also" />
-            <option value="But" />
           </set>
         </option>
       </SuppressingContext>
