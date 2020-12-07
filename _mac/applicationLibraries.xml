@@ -66,12 +66,12 @@
       <JAVADOC />
       <SOURCES />
     </library>
-    <library name="Python 3.9 (venv) interpreter library">
+    <library name="Python 3.9 (python-scripts) interpreter library">
       <CLASSES>
         <root url="file://$USER_HOME$/.pyenv/versions/3.9.0/lib/python3.9" />
         <root url="file://$USER_HOME$/.pyenv/versions/3.9.0/lib/python3.9/lib-dynload" />
-        <root url="file://$USER_HOME$/Downloads/venv/lib/python3.9/site-packages" />
-        <root url="file://$USER_HOME$/Library/Caches/JetBrains/IntelliJIdea2020.3/python_stubs/1679489042" />
+        <root url="file:///Volumes/repos/scripts/python-scripts/venv/lib/python3.9/site-packages" />
+        <root url="file://$USER_HOME$/Library/Caches/JetBrains/IntelliJIdea2020.3/python_stubs/-1274570946" />
         <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/python-skeletons" />
         <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/stdlib/3.9" />
         <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/stdlib/3.7" />
@@ -84,8 +84,8 @@
       <SOURCES>
         <root url="file://$USER_HOME$/.pyenv/versions/3.9.0/lib/python3.9" />
         <root url="file://$USER_HOME$/.pyenv/versions/3.9.0/lib/python3.9/lib-dynload" />
-        <root url="file://$USER_HOME$/Downloads/venv/lib/python3.9/site-packages" />
-        <root url="file://$USER_HOME$/Library/Caches/JetBrains/IntelliJIdea2020.3/python_stubs/1679489042" />
+        <root url="file:///Volumes/repos/scripts/python-scripts/venv/lib/python3.9/site-packages" />
+        <root url="file://$USER_HOME$/Library/Caches/JetBrains/IntelliJIdea2020.3/python_stubs/-1274570946" />
         <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/python-skeletons" />
         <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/stdlib/3.9" />
         <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/stdlib/3.7" />
