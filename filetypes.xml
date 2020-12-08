@@ -7,6 +7,7 @@
       <mapping ext="bu" type="PLAIN_TEXT" />
       <mapping ext="pem" type="PLAIN_TEXT" />
       <mapping ext="conf" type="PLAIN_TEXT" />
+      <mapping ext="sdef" type="XML" />
       <mapping ext="terminal" type="XML" />
       <mapping ext="webloc" type="XML" />
       <mapping pattern="*.tsconfig.json" type="tsconfig" />
