@@ -1910,6 +1910,11 @@
                       <FeaturePluginData displayName="utPLSQL Test" pluginName="Database Tools and SQL" pluginId="com.intellij.database" />
                     </value>
                   </entry>
+                  <entry key="XSLT">
+                    <value>
+                      <FeaturePluginData displayName="XSLT" pluginName="XPathView + XSLT" pluginId="XPathView" />
+                    </value>
+                  </entry>
                   <entry key="ccruntests">
                     <value>
                       <FeaturePluginData displayName="Run Study Tests" pluginName="com.jetbrains.edu" pluginId="com.jetbrains.edu" />
