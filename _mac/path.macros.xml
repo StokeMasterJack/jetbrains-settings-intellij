@@ -1,6 +1,7 @@
 <application>
   <component name="PathMacrosImpl">
     <macro name="CACHE" value="/Users/dford/_cache" />
+    <macro name="F" value="/Users/dford/_sdks/dart/flutter" />
     <macro name="GRADLE_HOME" value="/Users/dford/_sdks/sdkman/candidates/gradle/6.8-rc-1" />
     <macro name="JAVA_HOME" value="/Users/dford/_sdks/sdkman/candidates/java/11.0.9-amzn" />
     <macro name="JDKS" value="/Users/dford/_sdks/sdkman/candidates/java" />
