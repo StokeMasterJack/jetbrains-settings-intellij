@@ -12,7 +12,6 @@
       <mapping ext="sdef" type="XML" />
       <mapping ext="terminal" type="XML" />
       <mapping ext="webloc" type="XML" />
-      <removed_mapping pattern=".analysis_options" type="YAML" />
       <mapping pattern="*.tsconfig.json" type="tsconfig" />
       <removed_mapping ext="apk" approved="true" type="ARCHIVE" />
       <removed_mapping ext="bat" approved="true" type="PLAIN_TEXT" />
