@@ -3,7 +3,7 @@
     <option name="AUTO_POPUP_PARAMETER_INFO" value="false" />
   </component>
   <component name="DefaultFont">
-    <option name="FONT_FAMILY" value="Andale Mono" />
+    <option name="FONT_FAMILY" value=".SF NS Mono" />
   </component>
   <component name="EditorSettings">
     <option name="USE_SOFT_WRAPS" value="" />
