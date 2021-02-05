@@ -1,0 +1,15 @@
+<application>
+  <component name="CodeStyleSettingsManager">
+    <option name="PER_PROJECT_SETTINGS">
+      <value version="173">
+        <JetCodeStyleSettings>
+          <option name="CODE_STYLE_DEFAULTS" value="KOTLIN_OFFICIAL" />
+        </JetCodeStyleSettings>
+        <codeStyleSettings language="kotlin">
+          <option name="CODE_STYLE_DEFAULTS" value="KOTLIN_OFFICIAL" />
+        </codeStyleSettings>
+      </value>
+    </option>
+    <option name="PREFERRED_PROJECT_CODE_STYLE" value="Default" />
+  </component>
+</application>
