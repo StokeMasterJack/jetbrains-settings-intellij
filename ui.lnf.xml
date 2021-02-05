@@ -18,5 +18,6 @@
     <option name="PRESENTATION_MODE_FONT_SIZE" value="22" />
     <option name="SHOW_MAIN_TOOLBAR" value="true" />
     <option name="SHOW_TOOL_WINDOW_NUMBERS" value="true" />
+    <option name="USE_SMALL_LABELS_ON_TABS" value="false" />
   </component>
 </application>
