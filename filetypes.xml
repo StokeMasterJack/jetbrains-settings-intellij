@@ -3,7 +3,6 @@
     <ignoreFiles list="*.pyc;*.pyo;*.rbc;*.tsbuildinfo;*.yarb;*~;.DS_Store;.git;.hg;.svn;CVS;__pycache__;_svn;vssver.scc;vssver2.scc;" />
     <extensionMap>
       <mapping pattern="HtmlUtil.kt" type="AUTO_DETECTED" />
-      <mapping ext="cnf" type="Ini" />
       <mapping ext="gradle.kts" type="Kotlin" />
       <mapping ext="main.kts" type="Kotlin" />
       <mapping pattern=".profile" type="PLAIN_TEXT" />
