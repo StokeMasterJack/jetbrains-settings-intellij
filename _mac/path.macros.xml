@@ -1,14 +1,8 @@
 <application>
   <component name="PathMacrosImpl">
-    <macro name="GRADLE_HOME" value="/Users/dford/_sdk/v/gradle/6.8.1" />
-    <macro name="JAVA_HOME" value="/Users/dford/_sdk/v/java/11.0.9-amzn" />
     <macro name="JDKS" value="/Users/dford/_sdk/v/java" />
     <macro name="KOTLIN_BUNDLED" value="/Users/dford/Library/Application Support/JetBrains/IntelliJIdea2020.3/plugins/Kotlin/kotlinc" />
-    <macro name="MAVEN_HOME" value="/Users/dford/_sdk/v/maven/3.6.3" />
     <macro name="MAVEN_REPOSITORY" value="/Users/dford/_sdk/_/m2/repository" />
-    <macro name="R" value="/Volumes/repos" />
     <macro name="SDK" value="/Users/dford/_sdk" />
-    <macro name="U" value="/Users/dford/_sdk/_" />
-    <macro name="V" value="/Users/dford/_sdk/v" />
   </component>
 </application>
