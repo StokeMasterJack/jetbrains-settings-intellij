@@ -4,6 +4,5 @@
     <macro name="KOTLIN_BUNDLED" value="/Users/dford/Library/Application Support/JetBrains/IntelliJIdea2020.3/plugins/Kotlin/kotlinc" />
     <macro name="MAVEN_REPOSITORY" value="/Users/dford/_sdk/_/m2/repository" />
     <macro name="SDK" value="/Users/dford/_sdk" />
-    <ignoredMacro name="MAVEN_HOME" />
   </component>
 </application>
