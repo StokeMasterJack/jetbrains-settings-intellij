@@ -1,15 +1,14 @@
 <application>
   <component name="PathMacrosImpl">
     <macro name="CACHE" value="/Users/dford/_cache" />
-    <macro name="F" value="/Users/dford/_sdks/dart/flutter" />
-    <macro name="GRADLE_HOME" value="/Users/dford/_sdks/sdkman/candidates/gradle/6.8-rc-1" />
-    <macro name="JAVA_HOME" value="/Users/dford/_sdks/sdkman/candidates/java/11.0.9-amzn" />
-    <macro name="JDKS" value="/Users/dford/_sdks/sdkman/candidates/java" />
+    <macro name="FLUTTER_HOME" value="/Users/dford/_sdks/flutter" />
+    <macro name="GRADLE_HOME" value="/Users/dford/_sdks/gradle/6.8.1" />
+    <macro name="JAVA_HOME" value="/Users/dford/_sdks/java/11.0.9-amzn" />
+    <macro name="JDKS" value="/Users/dford/_sdks/java" />
     <macro name="KOTLIN_BUNDLED" value="/Users/dford/Library/Application Support/JetBrains/IntelliJIdea2020.3/plugins/Kotlin/kotlinc" />
-    <macro name="MAVEN_HOME" value="/Users/dford/_sdks/sdkman/candidates/maven/3.6.3" />
+    <macro name="MAVEN_HOME" value="/Users/dford/_sdks/maven/3.6.3" />
     <macro name="MAVEN_REPOSITORY" value="/Users/dford/_cache/_m2/repository" />
     <macro name="R" value="/Volumes/repos" />
-    <macro name="SDKMAN" value="/Users/dford/_sdks/sdkman" />
     <macro name="SDKS" value="/Users/dford/_sdks" />
   </component>
 </application>
