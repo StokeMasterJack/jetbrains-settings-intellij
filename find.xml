@@ -28,9 +28,9 @@
     <mask>*.sql</mask>
     <mask>*.scpt</mask>
     <mask>*.tsx</mask>
-    <mask>*.java*</mask>
     <mask>*.ts*</mask>
     <mask>*.kts</mask>
     <mask>*.kt*</mask>
+    <mask>*.java*</mask>
   </component>
 </application>
