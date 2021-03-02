@@ -2,9 +2,8 @@
   <component name="FileTypeManager" version="18">
     <ignoreFiles list="*.pyc;*.pyo;*.rbc;*.tsbuildinfo;*.yarb;*~;.DS_Store;.git;.hg;.svn;CVS;__pycache__;_svn;vssver.scc;vssver2.scc;" />
     <extensionMap>
+      <removed_mapping ext="klib" type="ARCHIVE" />
       <mapping pattern="HtmlUtil.kt" type="AUTO_DETECTED" />
-      <mapping ext="gradle.kts" type="Kotlin" />
-      <mapping ext="main.kts" type="Kotlin" />
       <mapping pattern=".profile" type="PLAIN_TEXT" />
       <mapping ext="bu" type="PLAIN_TEXT" />
       <mapping ext="proprties" type="PLAIN_TEXT" />
@@ -14,6 +13,7 @@
       <mapping ext="sdef" type="XML" />
       <mapping ext="terminal" type="XML" />
       <mapping ext="webloc" type="XML" />
+      <removed_mapping pattern=".analysis_options" type="YAML" />
       <mapping pattern="*.tsconfig.json" type="tsconfig" />
       <removed_mapping ext="apk" approved="true" type="ARCHIVE" />
       <removed_mapping ext="bat" approved="true" type="PLAIN_TEXT" />
