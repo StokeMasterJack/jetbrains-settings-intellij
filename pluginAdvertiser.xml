@@ -2199,6 +2199,11 @@
                       <FeaturePluginData displayName="Database Script" pluginName="Database Tools and SQL" pluginId="com.intellij.database" />
                     </value>
                   </entry>
+                  <entry key="DenoConfigurationType">
+                    <value>
+                      <FeaturePluginData displayName="Deno" pluginName="Deno" pluginId="deno" />
+                    </value>
+                  </entry>
                   <entry key="DjangoTestsConfigurationType">
                     <value>
                       <FeaturePluginData displayName="Django tests" pluginName="Python" pluginId="Pythonid" />
