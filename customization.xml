@@ -5,5 +5,11 @@
       <path value="Main Toolbar" />
       <option name="myInitialPosition" value="-1" />
     </group>
+    <group value="me.scana.okgradle.ok" is_action="true" action_type="1" position="14">
+      <path value="root" />
+      <path value="Main Toolbar" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <action id="me.scana.okgradle.ok" icon="$USER_HOME$/Downloads/search-black-ios/outline_search_black_18pt.xcassets/outline_search_black_18pt.imageset/outline_search_black_18pt_1x.png" />
   </component>
 </application>
