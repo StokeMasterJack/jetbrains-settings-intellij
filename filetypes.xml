@@ -13,7 +13,6 @@
       <mapping ext="conf" type="PLAIN_TEXT" />
       <mapping ext="plist" type="XML" />
       <mapping ext="sdef" type="XML" />
-      <mapping ext="pom" type="XML" />
       <mapping ext="terminal" type="XML" />
       <mapping ext="webloc" type="XML" />
       <mapping pattern="*.tsconfig.json" type="tsconfig" />
