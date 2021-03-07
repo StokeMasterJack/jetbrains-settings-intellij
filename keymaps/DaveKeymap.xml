@@ -58,6 +58,9 @@
   <action id="GotoChangedFile" />
   <action id="Inline" />
   <action id="JupyterSelectCellAboveAction" />
+  <action id="LocalHistory.ShowHistory">
+    <keyboard-shortcut first-keystroke="ctrl meta alt h" />
+  </action>
   <action id="MethodUp" />
   <action id="NextEditorTab" />
   <action id="NextTab" />
